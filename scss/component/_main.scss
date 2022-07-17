@@ -1,0 +1,30 @@
+.main {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .bienvenida {
+    max-width: 700px;
+    width: 100%;
+    padding: 45px 20px;
+    margin: 0 auto;
+  }
+  
+  .bienvenida-h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 20px;
+  
+  }
+  
+  .bienvenida-p {
+    font-family: $font-primaria;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .bienvenida-links {
+    display: flex;
+    justify-content: center;
+    padding: 1.25em;
+  }

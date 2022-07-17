@@ -1,0 +1,25 @@
+.s-productos {
+    display: inline;
+
+    & h2 {
+      text-align: center;
+      color: #4c3c3c;
+    }
+
+  }
+  
+  
+  .s-productos-descrip {
+    display: inline;
+
+    & h4 {
+      text-align: center;
+      padding: 0.625em;
+    }
+    
+    & p {
+      text-align: center;
+    }
+
+  }
+  

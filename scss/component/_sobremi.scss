@@ -1,0 +1,27 @@
+.sobremi-div-h2 {
+    text-align: center;
+    color: #4c3c3c;
+    padding: 0.625em;
+  }
+  
+  .descripcion-div {
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0.125em;
+  align-items: center;
+
+  & img {
+    width: 100%;
+    padding: 0.625em 6.25em;
+  }
+  
+  & p {
+    font-family: $font-primaria;
+    width: 70%;
+    font-size: 1.25em;
+    text-align: center;
+  }
+
+  }
+  
